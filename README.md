@@ -42,3 +42,8 @@ push 할 때 주의점: 내가 작업한 feature 브랜치로 올려야됨
 $ git push origin feature/이슈번호
 ```
 
+#### 6. 특정 시점으로 돌아가는 법
+```
+$ git log -> 내가 돌아가고 싶은 시점 hash 값을 가져온다.
+$git reset --hard hash 값
+```
